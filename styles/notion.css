@@ -403,15 +403,12 @@
 }
 
 .notion-toggle + .notion-toggle {
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 
 details > summary:first-of-type {
   list-style-position: outside;
-}
-
-details > summary:first-of-type {
-  /* padding-left: 5px; */
+  padding-left: 5px;
 }
 
 .notion-aside-table-of-contents {
