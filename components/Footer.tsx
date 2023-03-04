@@ -6,6 +6,7 @@ import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
+import { FaTelegram } from '@react-icons/all-files/fa/FaTelegram'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
@@ -132,6 +133,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaYoutube />
+          </a>
+        )}
+
+        {config.telegram && (
+          <a
+            className={styles.telegram}
+            href={`https://t.me/${config.telegram}`}
+            title={`Telegram ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaTelegram />
           </a>
         )}
       </div>
