@@ -3,19 +3,23 @@
 
 pre[class*="language-"].notion-code {
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: #202020;
   border: none;
 }
 
 .notion-code-copy-button {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #373737;
   color: #f6f8fa;
   border: none;
   box-shadow: none;
 }
 
 .notion-code-copy-button:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #474747;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  background-color: transparent;
 }
 
 /* .notion-code {
