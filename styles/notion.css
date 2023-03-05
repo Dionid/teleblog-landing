@@ -431,8 +431,8 @@
   padding-left: 20px;
 }
 
-.notion-toggle + .notion-toggle {
-  /* margin-top: 5px; */
+.notion-toggle > div {
+  padding-left: 5px;
 }
 
 details > summary:first-of-type {
@@ -449,12 +449,17 @@ details > summary:first-of-type {
 }
 
 .notion-page-title-text, .notion-link {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.30);
+  padding-bottom: 3px;
+  transition-property: border-bottom-color;
 }
 
 .notion-link:focus, .notion-link:hover {
-  background-image: linear-gradient(90.68deg, #dfc039 0.26%, #e57b33 102.37%);
-  transition-property: background-size;
+  /* background-image: linear-gradient(90.68deg, #dfc039 0.26%, #e57b33 102.37%);
+  transition-property: background-size; */
+  background-image: none;
+  transition-property: border-bottom-color;
+  border-bottom-color: #d59b1c;
 }
 
 .notion-aside-table-of-contents-header {
