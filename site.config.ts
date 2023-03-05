@@ -49,11 +49,12 @@ export default siteConfig({
     '/announcements': '57f7439098e945cb9702b6cd8c19ff4d',
     '/dictionary': '36ca2b544a5540229caf9749f03d2a6c',
 
-    '/you-dont-know-oop': '220d5d62394c468298f432889ab8b89e',
-    '/you-have-never-used-oop': '193737ff29f84a388dcfc287d2f803f3',
-    '/main-problem-of-oop': '9e8377d8ebd64c7f9fde9c04da75182e',
-    '/why-fp-and-pp-is-not-a-solution': 'c282701868044c218e89039511d9dce4',
-    '/fop-birth': 'f9b1e8292d6c4a6da4d693ad90e438b9',
+    '/origins/you-dont-know-oop': '220d5d62394c468298f432889ab8b89e',
+    '/origins/you-have-never-used-oop': '193737ff29f84a388dcfc287d2f803f3',
+    '/origins/main-problem-of-oop': '9e8377d8ebd64c7f9fde9c04da75182e',
+    '/origins/why-fp-and-pp-is-not-a-solution':
+      'c282701868044c218e89039511d9dce4',
+    '/origins/fop-birth': 'f9b1e8292d6c4a6da4d693ad90e438b9',
 
     '/flexibility-is-must': 'ea0b8ced6fdc4f969eb36d253c662373',
     '/process-first-design': 'e072d9d1986a41eca9a16a0c4606261e',
