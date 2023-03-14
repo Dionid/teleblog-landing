@@ -45,6 +45,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
+    '/': '101ffcdcef71463c81c9ecf20130d74b',
     '/usefull-links': '73b7e860132b492ea91e0fbbeb14629a',
     '/announcements': '57f7439098e945cb9702b6cd8c19ff4d',
     '/dictionary': '36ca2b544a5540229caf9749f03d2a6c',
