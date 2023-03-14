@@ -12,9 +12,6 @@ export const getStaticProps: GetStaticProps<PageProps, Params> = async (
 ) => {
   const rawPageId = context.params.pageId
 
-  console.log("!!!! context.params", context.params)
-  console.log("!!!! rawPageId", rawPageId)
-
   try {
     const props = await resolveNotionPage(domain, rawPageId.join("/"))
 
@@ -53,5 +50,6 @@ export async function getStaticPaths() {
 }
 
 export default function NotionDomainDynamicPage(props) {
+  console.log("!!! props", props.recordMap && props.recordMap.block["17eceb3d-58ac-45d6-bef2-260f2a8997ba"])
   return <NotionPage {...props} />
 }

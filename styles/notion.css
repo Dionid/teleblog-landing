@@ -458,8 +458,15 @@
 }
 
 .notion-toggle {
-  padding-left: 20px;
+  /* padding-left: 20px; */
   width: 100%;
+}
+
+@media (min-width: 900px) {
+.notion-toggle {
+  padding-left: 15px;
+  /* width: 100%; */
+}
 }
 
 .notion-toggle > div {
@@ -496,8 +503,14 @@ details > summary:first-of-type {
   margin-top: 0px;
 }
 
+ol > ol > .notion-code {
+  margin-left: -20px;
+  width: calc(100% + 1.6em);
+}
+
 .notion-list-numbered {
   padding-inline-start: 20px;
+  width: 100%;
 }
 
 .notion-list-numbered > div {
