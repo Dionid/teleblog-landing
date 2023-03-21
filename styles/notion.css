@@ -483,6 +483,7 @@ details > summary:first-of-type {
   background: transparent;
   padding-left: 15px;
   padding-right: 30px;
+  width: 100%;
 }
 
 .notion-aside-table-of-contents-header {
