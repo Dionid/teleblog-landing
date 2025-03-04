@@ -17,10 +17,10 @@ export default siteConfig({
   description: '👨🏻 Давид Шекунц 👴🏿',
 
   // social usernames (optional)
-  // twitter: 'transitive_bs',
-  // github: 'transitive-bullshit',
+  twitter: 'david_shekunts',
+  github: 'Dionid',
   // linkedin: 'fisch2',
-  telegram: 'it_kachalka',
+  // telegram: 'it_kachalka',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
