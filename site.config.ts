@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: '👨🏻 David Shekunts 👴🏿',
-  domain: 'about-me.davidshekunts.ru',
+  domain: 'about-me.davidshekunts.com',
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
-  description: '👨🏻 Давид Шекунц 👴🏿',
+  description: '👨🏻 David Shekunts 👴🏿',
 
   // social usernames (optional)
   twitter: 'david_shekunts',
