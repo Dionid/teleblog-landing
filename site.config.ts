@@ -14,7 +14,7 @@ export default siteConfig({
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
-  description: '👨🏻 David Shekunts 👴🏿',
+  description: 'Senior Platform Engineer & Golang / Node.ts Tech Lead & mustache owner',
 
   // social usernames (optional)
   twitter: 'david_shekunts',
