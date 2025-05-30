@@ -563,3 +563,9 @@ ol > ol > .notion-code {
 .notion-table-view-header-cell-inner {
   border-right: 1px solid var(--fg-color-1);
 }
+
+
+.notion-callout-text > .notion-h {
+  margin-top: 0;
+  padding-top: 0;
+}
