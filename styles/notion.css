@@ -573,3 +573,8 @@ ol > ol > .notion-code {
 .notion-callout-text > .notion-h .notion-hash-link {
   display: none;
 }
+
+.dark-mode .notion-file-link .notion-file-icon {
+  color: #fff;
+  fill: #fff;
+}
