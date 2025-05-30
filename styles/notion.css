@@ -569,3 +569,7 @@ ol > ol > .notion-code {
   margin-top: 0;
   padding-top: 0;
 }
+
+.notion-callout-text > .notion-h .notion-hash-link {
+  display: none;
+}
