@@ -2,23 +2,23 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'fce014cc01334fee829d9b6d3f1c69c2',
+  rootNotionPageId: '21569d14d07780ecba5cf1411e51e635',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '👨🏻 David Shekunts 👴🏿',
-  domain: 'about-me.davidshekunts.com',
-  author: '👨🏻 David Shekunts 👴🏿',
+  name: 'Teleblog',
+  domain: 'teleblog.palatine.ru/',
+  author: 'David Shekunts & Valeronchik',
 
   // open graph metadata (optional)
-  description: 'Senior Platform Engineer & Golang / Node.ts Tech Lead & mustache owner',
+  description: 'Получите готовый сайт из вашего телеграм канала и новых подписчиков с помощью органического SEO трафика',
 
   // social usernames (optional)
-  twitter: 'david_shekunts',
-  github: 'Dionid',
+  // twitter: 'david_shekunts',
+  // github: 'Dionid',
   // linkedin: 'fisch2',
   // telegram: 'it_kachalka',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
@@ -46,7 +46,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': 'fce014cc01334fee829d9b6d3f1c69c2'
+    '/': '21569d14d07780ecba5cf1411e51e635'
   },
   // pageUrlOverrides: null,
 
