@@ -578,3 +578,29 @@ ol > ol > .notion-code {
   color: #fff;
   fill: #fff;
 }
+
+.notion-callout .notion-callout-text > * {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.notion-asset-wrapper.notion-block-21969d14d07780a5bc45c1095e459e59 {
+  margin: 0;
+}
+
+.notion-asset-wrapper.notion-block-21969d14d07780a5bc45c1095e459e59 img {
+  object-fit: contain !important;
+}
+
+.notion-callout-text .notion-h {
+  display: block;
+}
+
+.notion-block-21969d14d07780729a86c8774602ab4b .notion-callout,
+.notion-block-21969d14d07780efb658ea129dc3fea6 .notion-callout {
+  height: 100%;
+}
+
+.notion-callout-text {
+  align-self: flex-start;
+}
