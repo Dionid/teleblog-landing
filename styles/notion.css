@@ -616,3 +616,31 @@ ol > ol > .notion-code {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.notion-link[href*="tb_button=true"] {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #0070ce;
+  /* border: 1px solid #fff; */
+  transition: 0.2s ease-in-out;
+  border: none;
+}
+
+.notion-link[href*="tb_button=true"]:hover {
+  background-color: #005399;
+}
+
+div:has(> .notion-link[href*="tb_button=true&center=true"]) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notion-callout-text ul li {
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.notion-toggle summary::marker {
+  font-size: 12px;
+}
