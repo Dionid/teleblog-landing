@@ -9,7 +9,6 @@ import { PageBlock } from 'notion-types'
 import { formatDate, getBlockTitle, getPageProperty } from 'notion-utils'
 import BodyClassName from 'react-body-classname'
 import { NotionRenderer } from 'react-notion-x'
-import TweetEmbed from 'react-tweet-embed'
 import { useSearchParam } from 'react-use'
 
 import * as config from '@/lib/config'
@@ -81,10 +80,6 @@ const Modal = dynamic(
   }
 )
 
-const Tweet = ({ id }: { id: string }) => {
-  return <TweetEmbed tweetId={id} />
-}
-
 const propertyLastEditedTimeValue = (
   { block, pageHeader },
   defaultFn: () => React.ReactNode
@@ -144,7 +139,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
       Equation,
       Pdf,
       Modal,
-      Tweet,
       Header: NotionPageHeader,
       propertyLastEditedTimeValue,
       propertyTextValue,
