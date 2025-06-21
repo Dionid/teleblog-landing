@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Teleblog',
-  domain: 'teleblog.palatine.ru/',
+  domain: 'teleblog.palatine.ru',
   author: 'David Shekunts & Valeronchik',
 
   // open graph metadata (optional)
@@ -52,7 +52,7 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
+  navigationStyle: 'default',
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {

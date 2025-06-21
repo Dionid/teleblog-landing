@@ -36,7 +36,9 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2025 {config.author}</div>
+      <div className={styles.copyright}>
+        Copyright 2025 teleblog
+      </div>
 
       <div className={styles.settings}>
         {hasMounted && (
@@ -50,6 +52,17 @@ export const FooterImpl: React.FC = () => {
             {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
           </a>
         )}
+      </div>
+
+      <div className={styles.copyright}>
+        <a
+            href="https://bit.ly/409Jstx"
+            title="Политика конфиденциальности"
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Политика конфиденциальности
+          </a>
       </div>
 
       <div className={styles.social}>
