@@ -604,3 +604,15 @@ ol > ol > .notion-code {
 .notion-callout-text {
   align-self: flex-start;
 }
+
+.notion-block-21969d14d07780dfbcd4fc9b8d29a320 .notion-asset-wrapper,
+.notion-block-21969d14d0778041b48bdde51af7028d .notion-asset-wrapper {
+  margin-bottom: 0;
+}
+
+.notion-block-21969d14d07780dfbcd4fc9b8d29a320 .notion-callout,
+.notion-block-21969d14d0778041b48bdde51af7028d .notion-callout {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
