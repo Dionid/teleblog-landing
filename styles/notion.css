@@ -618,12 +618,12 @@ ol > ol > .notion-code {
 }
 
 .notion-link[href*="tb_button=true"] {
-  padding: 10px 15px;
+  padding: 12px 15px;
   border-radius: 8px;
-  background-color: #0070ce;
-  /* border: 1px solid #fff; */
+  background-color: #008bff;
   transition: 0.2s ease-in-out;
   border: none;
+  color: #fff;
 }
 
 .notion-link[href*="tb_button=true"]:hover {
