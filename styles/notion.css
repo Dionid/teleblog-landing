@@ -584,37 +584,12 @@ ol > ol > .notion-code {
   padding-top: 0;
 }
 
-.notion-asset-wrapper.notion-block-21969d14d07780a5bc45c1095e459e59 {
-  margin: 0;
-}
-
-.notion-asset-wrapper.notion-block-21969d14d07780a5bc45c1095e459e59 img {
-  object-fit: contain !important;
-}
-
 .notion-callout-text .notion-h {
   display: block;
 }
 
-.notion-block-21969d14d07780729a86c8774602ab4b .notion-callout,
-.notion-block-21969d14d07780efb658ea129dc3fea6 .notion-callout {
-  height: 100%;
-}
-
 .notion-callout-text {
   align-self: flex-start;
-}
-
-.notion-block-21969d14d07780dfbcd4fc9b8d29a320 .notion-asset-wrapper,
-.notion-block-21969d14d0778041b48bdde51af7028d .notion-asset-wrapper {
-  margin-bottom: 0;
-}
-
-.notion-block-21969d14d07780dfbcd4fc9b8d29a320 .notion-callout,
-.notion-block-21969d14d0778041b48bdde51af7028d .notion-callout {
-  margin-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
 }
 
 .notion-link[href*="tb_button=true"] {
@@ -643,4 +618,31 @@ div:has(> .notion-link[href*="tb_button=true&center=true"]) {
 
 .notion-toggle summary::marker {
   font-size: 12px;
+}
+
+/* Block customization */
+
+.notion-asset-wrapper.notion-block-21b69d14d07781268786c8b09d6906a0 {
+  margin: 0;
+}
+
+.notion-asset-wrapper.notion-block-21b69d14d07781268786c8b09d6906a0 img {
+  object-fit: contain !important;
+}
+
+.notion-block-21b69d14d077810db560d045556cfd56 .notion-callout,
+.notion-block-21b69d14d07781cdbe36e4ed6ecc23db .notion-callout {
+  height: 100%;
+}
+
+.notion-block-21b69d14d077812394b0d7a5d7e897f2 .notion-asset-wrapper,
+.notion-block-21b69d14d0778151b866d22d9f8c550e .notion-asset-wrapper {
+  margin-bottom: 0;
+}
+
+.notion-block-21b69d14d077812394b0d7a5d7e897f2 .notion-callout,
+.notion-block-21b69d14d0778151b866d22d9f8c550e .notion-callout {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
