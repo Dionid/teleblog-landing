@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '21569d14d07780ecba5cf1411e51e635',
+  rootNotionPageId: '21b69d14d0778071a933ea6fd589c281',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,11 +10,12 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Teleblog',
-  domain: 'teleblog.palatine.ru',
-  author: 'David Shekunts & Valeronchik',
+  domain: 'teleblog.net',
+  author: 'David Shekunts & palantine.ru',
 
   // open graph metadata (optional)
-  description: 'Получите готовый сайт из вашего телеграм канала и новых подписчиков с помощью органического SEO трафика',
+  description:
+    'Получите готовый сайт из вашего телеграм канала и новых подписчиков с помощью органического SEO трафика',
 
   // social usernames (optional)
   // twitter: 'david_shekunts',
@@ -46,13 +47,13 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': '21569d14d07780ecba5cf1411e51e635'
+    '/': '21b69d14d0778071a933ea6fd589c281'
   },
   // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default',
+  navigationStyle: 'default'
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {

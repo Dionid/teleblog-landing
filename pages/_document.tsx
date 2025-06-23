@@ -101,7 +101,7 @@ export default class MyDocument extends Document {
               dangerouslySetInnerHTML={{
                 __html: `
 /** Inlined version of noflash.js from use-dark-mode */
-;(function () {
+;const activateDarkMode = () => {
   var storageKey = 'darkMode'
   var classNameDark = 'dark-mode'
   var classNameLight = 'light-mode'
@@ -133,7 +133,8 @@ export default class MyDocument extends Document {
     var isDarkMode = document.body.classList.contains(classNameDark)
     localStorage.setItem(storageKey, JSON.stringify(isDarkMode))
   }
-})();
+};
+// activateDarkMode();
 `
               }}
             />
