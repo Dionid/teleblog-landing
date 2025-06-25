@@ -5,6 +5,10 @@ export function useDarkMode() {
     // Check localStorage for dark mode preference
     if (typeof window !== 'undefined') {
       const storedMode = localStorage.getItem('darkMode')
+      if (storedMode === null) {
+        // If no preference is stored, check system preference
+        return global.matchMedia?.('(prefers-color-scheme: dark)').matches
+      }
       return storedMode === 'true'
     }
     return false

@@ -31,6 +31,10 @@ export const PageHead: React.FC<
 
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
+      <meta
+        name='keywords'
+        content='telegram, blog, channel, social media, content management'
+      />
 
       {site && (
         <>
@@ -79,6 +83,26 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+
+      <script type='application/ld+json'>
+        {`{
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "TeleBlog",
+        "description": "Получите готовый сайт из вашего телеграм канала и новых подписчиков с помощью органического SEO трафика",
+        "url": "https://teleblog.net",
+        "applicationCategory": "WebApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "10",
+          "priceCurrency": "USD"
+        },
+        "creator": {
+          "@type": "Organization",
+          "name": "TeleBlog"
+        }
+      }`}
+      </script>
     </Head>
   )
 }
