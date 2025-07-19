@@ -647,6 +647,6 @@ div:has(> .notion-link[href*="tb_button=true&center=true"]) {
   border-top-right-radius: 0;
 }
 
-/* .notion-page-link {
+.notion-page-link {
   display: none !important;
-} */
+}
