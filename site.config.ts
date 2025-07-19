@@ -47,7 +47,8 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': '21b69d14d0778071a933ea6fd589c281'
+    '/': '21b69d14d0778071a933ea6fd589c281',
+    '/clients': '21969d14d077803c9bf3e122983c42fb'
   },
   // pageUrlOverrides: null,
 
